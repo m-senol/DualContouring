@@ -1,0 +1,25 @@
+- check remove attribute, redundant or useless with attrib.delete()
+- nb darts probably redundant ?
+- maybe rename emb to celltype ?
+- document:
+	CMapBase
+	CMap0
+	Renderer
+	All
+
+
+- map.copy/clone
+
+
+- add set_cellEmbedding(emb, c, id);
+- add degree and codegree functions for each embedding
+- change close hole with addFace1 + cutEdges & sewPhi2
+- add this.phis = {-1: this.phi_1 [...]} + this.phi([<path>], d);
+- add is incident to boundary(emb, cd)
+- enable casting? (eg: CMap2.call(cmap1) && if(nb_dart != 0) -> fill in new topological relations to identity)
+
+Renderer:
+- compute face normals in mesh before triangulation
+- redo material parameters (pass material in parameters?)
+
+-STOP PROCRASTINATING DOCUMENTATION
